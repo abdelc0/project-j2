@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>son</title>
+    
 </head>
 
 <body>

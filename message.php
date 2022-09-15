@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/message.css">
 <?php
 $alert = (isset($_GET["alert"]))? $_GET["alert"]: "default";
 $id = (isset($_GET["id"]))? $_GET["id"]: "";
@@ -156,27 +157,3 @@ switch($alert){
     
 }
 ?>
-
-<style>
-
-.alert {
-  padding: 20px;
-  background-color: #f44336;
-  color: white;
-}
-
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.closebtn:hover {
-  color: black;
-}
-</style>

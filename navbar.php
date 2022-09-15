@@ -79,6 +79,7 @@
             <li><a href="./index.php?content=uitloggen">uitloggen</a></li>';
 
         } else {
+          //dit is wat iedreen ziet dus
           echo '
           <li><a href="./index.php?content=register">register</a></li>
           <li><a href="./index.php?content=inloggen">inloggen</a></li>
