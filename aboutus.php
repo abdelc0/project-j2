@@ -5,23 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>son</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="readmore.css">
+    <title>Mbo Utrecht</title>
+
+    <link rel="stylesheet" href="css/readmore.css">
 </head>
 
 <body>
 
-    <!-- <header>
-    <div class="row">
-                <div class="col-12 px-0">
-                    <?php include("./navbar.php"); ?>
-                </div>
-            </div>
-    </header> -->
-    <script src="script.js" type="text/javascript"></script>
-    <!-- header -->
-    <header>
+   
+
+
 
 
 
@@ -29,20 +22,21 @@
         <div class="info-wrapper">
             <h1 class="headline">About MBO Utrecht</h1>
             <h2 class="subhead">ben je nieuwe op dit school of zit je nog te twijfelen hier onder zie je meer infomatie</h2>
-            <div class="article-meta">
+            <div class="article-meta"> 
 
                 <p class="byline">wil je contact met ons nemen klik dan <a href="contactus">HIER</a>  </p>
                 <p class="dateline"> </p>
                 <p class="article-tags">
+                    <img src="https://www.em-press.nl/img-get/I0000eubGFFVUl_A/s/1200/I0000eubGFFVUl_A.jpg" alt="">
 
                 </p>
             </div>
+        
 
         </div>
-    </header>
 
 
-    <section>
+          <div class="text">   
         <h3>MBO Utrecht wil jou helpen in de ontwikkeling van student tot zelfbewuste professional. Wij geven jou meer dan een opleiding en leren je meer dan een vak. Er is veel aandacht voor de ontwikkeling van talent, arbeidsvaardigheden, ondernemend gedrag, maatschappelijke betrokkenheid, respect voor elkaar en burgerschap. </h3>
         <br>
         <hr>
@@ -54,7 +48,7 @@
         </figure>
 
 
-
+    
 
 
         <!-- full size image: https://images.unsplash.com/photo-1601637155580-ac6c49428450-->
@@ -120,10 +114,9 @@
 
         <!-- full size image: https://images.unsplash.com/photo-1601637155580-ac6c49428450-->
 
-    </section>
-    <style>
-    </style>
-
+        </div>
+</div>
+   
 
 
 

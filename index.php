@@ -11,7 +11,7 @@
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>son</title>
+    <title>Mbo Utrecht</title>
     
 </head>
 
@@ -35,6 +35,14 @@
             </div>
         </section>
         
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <?php include("./footer.php"); ?>
+
+                </div>
+            </div>
+        </section>
     </main>
 
 
