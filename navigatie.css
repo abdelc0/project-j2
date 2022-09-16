@@ -1,0 +1,26 @@
+.maps {   
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.maps iframe {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 70% ;
+    height: 50% ;
+}
+
+.location-info{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+
+}
+
+#locatie.anchor{
+    background-color: lightblue;
+    padding: px;
+
+}
