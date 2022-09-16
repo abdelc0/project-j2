@@ -1,7 +1,7 @@
 <?php
-session_start(); 
-include("./connect_db.php");   
-$id=$_SESSION["id"];
+session_start();
+include("./connect_db.php");
+$id = $_SESSION["id"];
 var_dump($_POST);
 
 // $kleintext = $_POST["kleintext"];
@@ -13,11 +13,11 @@ var_dump($_POST);
 
 
 $sql = "UPDATE `register_newgebruiker`
-                 SET `opendag` = 0
+                 SET `opendag` = 1
                        
                  WHERE `id` = $id";
 // echo $sql;exit();
-mysqli_query($conn,$sql); 
+mysqli_query($conn, $sql);
 //header("location: index.php?content=home");    
 
 if (mysqli_query($conn, $sql)) {
@@ -46,11 +46,10 @@ if (mysqli_query($conn, $sql)) {
         <body>
         <h3></h3>
         <h2>Beste Gebruiker,</h2>
-        <p>U heeft zich onlangs geregistreerd voor de site son.nl</p>
-        <p> voor het activeren en wijzigen van het wachtwoord van uw account</p>
+        <p>U heeft zich onlangs geregistreerd voor de MBOUtrecht opendag software developer & Expert IT systems and devices</p>
+        <p> Opendag begint om 14:00 in lokaal 3.28, als u wilt weten hoe je daar komt kan je het bij onze website opzoeken of bij de ingang kan je het ook zien.</p>
         <p>Met vriendelijke groet,</p>
-        <p>A. charai</p>
-        <p>CE0 SON INC.</p>
+        <p>MBOUtrecht</p>
        
     
 
@@ -82,9 +81,3 @@ if (mysqli_query($conn, $sql)) {
 } else {
     header("Location:./index.php?content=message&alert=register-error");
 }
-
-
-
-
-?>
-

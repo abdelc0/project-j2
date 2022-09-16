@@ -85,11 +85,11 @@ if (empty($_POST["email"])) {
                 <body>
                 <h3>'.$d.' -'.$t.'</h3>
                 <h2>Beste Gebruiker,</h2>
-                <p>U heeft zich onlangs geregistreerd voor de site son.nl</p>
+                <p>U heeft zich onlangs geregistreerd voor de MBOUtrecht site</p>
                 <p>Klik <a href = http://www.proprak.nl/index.php?content=activate&id=' . $id . '&pwh=' . $password_hash . '">hier</a> voor het activeren en wijzigen van het wachtwoord van uw account</p>
                 <p>Met vriendelijke groet,</p>
-                <p>A. charai</p>
-                <p>CE0 SON INC.</p>
+                <p>MBOUtrecht</p>
+
                
             
 

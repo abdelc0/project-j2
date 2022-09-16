@@ -10,7 +10,7 @@ header("location: ./index.php?content=message&alert=hacker-alert");
 <div class="wrapper">
 
     
-    <form class="form-signin" action="./index.php?content=activate_script" method="post">    
+    <form class="form-signin" action="./index.php?content=activate_script.php" method="post">    
       <h2 class="form-signin-heading"> activeer je account hier</h2>
       <input name="password" type="password" class="form-control" id="inputPassword" aria-describedby="passwordHelp" required>
           <div id="passwordHelp" class="form-text"></div>
