@@ -1,4 +1,8 @@
-/* navbar start */
+
+body{
+ margin: 0;
+ padding: 0;   
+}/* navbar start */
 
 .navbar {
     display: flex;
