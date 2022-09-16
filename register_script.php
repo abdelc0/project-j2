@@ -1,5 +1,5 @@
 <?php
-var_dump($_POST["email"]);
+//var_dump($_POST["email"]);
 
 if (empty($_POST["email"])) {
     header("Location:./index.php?content=message&alert=no-email");
@@ -118,9 +118,11 @@ if (empty($_POST["email"])) {
 
             mail($to, $subject, $message, $headers);
             // echo $message;
-            header("Refresh:6; url=./index.php?content=message&alert=register-success");
+            header("Refresh:1; url=./index.php?content=message&alert=register-success");
         } else {
             header("Location:./index.php?content=message&alert=register-error");
         }
     }
 }
+
+
