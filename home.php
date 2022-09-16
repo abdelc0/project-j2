@@ -4,28 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="landingpage.css">
     <title>MBO utrecht</title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="brand-title">MBO Utrecht</div>
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Opleidingen</a></li>
-            <li><a href="" target="blank">open dag</a></li>
-            <li><a href="">login</a></li>
-            <li><a href="">register</a></li>
-          </ul>
-        </div>
-      </nav>
+    
       <header>
         <div class="banner"><img src="img/Columbuslaan-nieuw-1-1920x460.jpg" alt=""></div>
     </header>
@@ -70,6 +54,8 @@
 
 
 </div>
+
+
 
     <footer>
         <!-- FOOTER START -->
