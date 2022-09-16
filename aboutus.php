@@ -31,7 +31,7 @@
             <h2 class="subhead">ben je nieuwe op dit school of zit je nog te twijfelen hier onder zie je meer infomatie</h2>
             <div class="article-meta">
 
-                <p class="byline"> </p>
+                <p class="byline">wil je contact met ons nemen klik dan <a href="contactus">HIER</a>  </p>
                 <p class="dateline"> </p>
                 <p class="article-tags">
 

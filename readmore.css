@@ -142,6 +142,9 @@ margin: auto;
         /* 	background: yellow; */
         margin: 0.5rem;
     }
+    a{
+        text-decoration: none;
+    }
   
 
     
