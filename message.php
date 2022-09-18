@@ -147,7 +147,25 @@ switch($alert){
         </div>';
         header("refresh:3; ./index.php?content=home");
         
+        
     break;
+    case "message-succes":
+        echo' </div>
+        <div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+        uw hebt  succesvol een bericht gestuurd, de antwoord komt binnen 2 werkdagen.
+        </div>';
+        header("refresh:3; ./index.php?content=home");
+break;
+
+        case"message-error":
+            echo' </div>
+            <div class="alert alert-danger mt-5 w-50 mx-auto text-center " role="alert">
+            Er is iets fout gegaan in het messageproces. Probeer het nogmaals of neem contact op me
+            mbo@hotmail.com.nl
+            </div>';
+            header("refresh:6; ./index.php?content=register");
+            
+        break;
    
 
    

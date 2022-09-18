@@ -1,5 +1,8 @@
 <?php
-var_dump($_POST);
+include("./functions.php");
+include("./connect_db.php");
+
+//var_dump($_POST);
 echo $_POST["firstname"];
 $firstname = $_POST["firstname"];
 $lastname = $_POST["lastname"];
@@ -10,12 +13,7 @@ $subjects = $_POST["subjects"];
 
 echo "<hr>";
 //  hier worden de gegevens die nodig voor verbinding met de 
-$dbserver = "localhost";
-$dbuser = "root";
-$password = "";
-$dbname = "opendag";
 
-$conn = mysqli_connect($dbserver, $dbuser, $password, $dbname);
 
 
 // $sql ="INSERT INTO `users` (`id`, `firstname`, `infix`, `lastname`, `age`,`woonplaats`,`gender`)
@@ -36,7 +34,10 @@ $conn = mysqli_connect($dbserver, $dbuser, $password, $dbname);
 $result = mysqli_query($conn,$sql);
 
 if($result){
-    header("Location: index.php");  
+    header("refresh:0.1; url=./index.php?content=message&alert=message-succes");  
+}
+else{
+    header("refresh:0.1; url=./index.php?content=message&alert=message-error");
 }
 
 ?>
