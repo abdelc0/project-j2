@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="navigatie.css">
+<link rel="stylesheet" href="css/navigatie.css">
 
 <?php
-include 'navbar/navbar.php';
+include 'navbar.php';
 ?>
 
 <!-- <div class= 'loction-info-color'>

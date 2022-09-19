@@ -30,7 +30,7 @@
             <ul>
               <li><a href="./index.php?content=home">Home</a></li>
               <li><a href="./index.php?content=aboutmbo">about mbo</a></li>
-              <li><a href="./index.php?content=home">Home</a></li>
+              <li><a href="./navigatie.php?content=navigatie">Navigatie</a></li>
             
            
           
