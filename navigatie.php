@@ -44,6 +44,21 @@ include 'navbar.php';
 <div class="row">
       <div class="column" style="background-color:#3c4053">
         <div class="container">
+        <span>Locatie</span>
+        <h3>ICT Academie</h3>
+        <p>
+            Daltonlaan 300 <br>
+            Utrecht </p>
+
+        <p>
+         <a href="mailto:studiekeuze@mboutrecht.nl">studiekeuze@mboutrecht.nl</a><br>
+         <a href="tel:"></a>
+        </p>
+
+        <p>
+         <a href="whatsapp://send?phone=31625705051" target="_blank">+31 (0) 6 25705051</a> <span
+         class="small">(WhatsApp)</span>
+        </p>
     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9806.
     358403289614!2d5.151535498693468!3d52.08720037733886!2m3!1f0!2f0!3f0!3m2
     !1i1024!2i768!4f13.1!3m3!1m2!1s0x47c668a291ed7f45%3A0x9b18dabb8687ad2!2
