@@ -1,0 +1,91 @@
+
+.container {
+  
+  }
+
+  .map{
+    width: 62%;
+    margin-left: 38%;
+  }
+
+
+
+
+.location-info{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+
+}
+
+#locatie.anchor{
+    background-color: lightblue;
+    padding: px;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+  }
+  
+
+    
+  
+  /*
+   MENU END
+  */
+  
+  /*
+   MASTHEAD START
+  */
+  
+ 
+/* 
+ .welkomhomepage h1 {
+  background-color: red;
+  text-align: center;
+ } */
+
+
+ 
+     
+
+  
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media (min-width: 1300px) {
+    .maps {
+        width: 70% ;
+        height: 50% ;
+    }
+}
+
+@media (min-width: 800px) {
+    .maps {
+        width: 70% ;
+        height: 10% ;
+    }
+}
+
+@media (min-width: 300px) {
+    .maps {
+        width: 70% ;
+        height: 10% ;
+    }
+}
+  
+
+
