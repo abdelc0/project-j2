@@ -1,8 +1,6 @@
 <link rel="stylesheet" href="css/navigatie.css">
 
-<?php
-include 'navbar.php';
-?>
+
 
 <!-- <div class= 'loction-info-color'>
 <div class="location-info">
