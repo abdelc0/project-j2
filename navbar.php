@@ -5,47 +5,51 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+
 <body>
 
 
 
 
-<link rel="stylesheet" href="css/navbar.css">
-<link rel="stylesheet" href="css/home.css">
-<header>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <header>
         <nav class="navbar">
-          <div class="brand-title">son</div>
-          <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <div class="navbar-links">
-            <ul>
-              <li><a href="./index.php?content=home">Home</a></li>
-              <li><a href="./index.php?content=aboutmbo">about mbo</a></li>
-              <li><a href="./navigatie.php?content=navigatie">Navigatie</a></li>
-            
-           
-          
-              
-           
-            <script src="js/script.js" type="text/javascript"></script>
-            
-          
-    
-              
-          
+            <div class="brand-title">son</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="./index.php?content=home">Home</a></li>
+                    <li><a href="./index.php?content=aboutmbo">about mbo</a></li>
+                    <li><a href="./navigatie.php?content=navigatie">Navigatie</a></li>
+                    <li><a href="./navigatie.php?content=opleiding">opleiding</a></li>
 
 
-        
-        <?php
+
+
+
+
+                    <script src="js/script.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+                    <?php
         // var_dump($_SESSION);exit();
         if (isset($_SESSION["id"])){
           switch($_SESSION["userrole"]){
@@ -98,13 +102,14 @@
               }
 
         ?>
-     
-            </ul> 
-          </div>
+
+                </ul>
+            </div>
         </nav>
 
     </header>
-    
-  
-    </body>
+
+
+</body>
+
 </html>
