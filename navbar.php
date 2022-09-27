@@ -31,9 +31,10 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       <div class="navbar-links">
         <ul>
           <li><a href="./index.php?content=home">Home</a></li>
-          <li><a href="./index.php?content=aboutmbo">about mbo</a></li>
+          <li><a href="./index.php?content=aboutmbo">About MBO</a></li>
           <li><a href="./index.php?content=navigatie">Navigatie</a></li>
-          <li><a href="./index.php?content=opleiding">opleiding</a></li>
+          <li><a href="./index.php?content=opleiding">Opleiding</a></li>
+          <li><a href="./index.php?content=projects">Projects</a></li>
 
 
 

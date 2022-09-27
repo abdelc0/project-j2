@@ -8,17 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Mbo Utrecht</title>
-    
+
 </head>
 
 <body>
 
     <main>
-        
+
         <section class="container-fluid">
             <div class="row">
                 <div class="col-12 px-0">
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="container-fluid">
             <div class="row">
                 <div class="col-12 px-0">
@@ -46,9 +46,9 @@
     </main>
 
 
- 
+
     <script src="js/app.js"></script>
-   <link rel="stylesheet" href="css/indexcsspadding.css">
+    <link rel="stylesheet" href="css/indexcsspadding.css">
 </body>
 
 
