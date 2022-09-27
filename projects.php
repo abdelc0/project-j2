@@ -30,7 +30,7 @@
             <a href="./index.php?content=aboutus">
                 <div class="card 2">
                     <div class="card_image">
-                        <img src="./img/aboutus.png" />
+                        <img src="./img/project2" />
                     </div>
                     <div class="card_title title-white">
                     </div>
@@ -42,7 +42,7 @@
                 <div class="card 3">
 
                     <div class="card_image">
-                        <img src="./img/opleiding.png" />
+                        <img src="./img/project3" />
                     </div>
                     <div class="card_title">
 
