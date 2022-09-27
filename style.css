@@ -48,7 +48,8 @@ img {
 #content23,
 #content24,
 #content25,
-#content26  {
+#content26,
+#content27 {
     position: absolute;
     overflow: hidden;
     padding-bottom: 1rem;
@@ -186,6 +187,140 @@ img {
     top: 59.5%;
 }
 
+#a1 {
+    left: 25%;
+    top: 15.5%;
+}
+
+#a2 {
+    left: 36.5%;
+    top: 10%;
+}
+
+#a3 {
+    left: 46%;
+    top: 10%;
+}
+
+#a4 {
+    left: 56%;
+    top: 8%;
+}
+
+#a5 {
+    left: 66%;
+    top: 9%;
+}
+
+#a6 {
+    left: 36%;
+    top: 22%;
+}
+
+#a7 {
+    left: 42.5%;
+    top: 22%;
+}
+
+#a8 {
+    left: 47%;
+    top: 22%;
+}
+
+#a9 {
+    left: 57.5%;
+    top: 22%;
+}
+
+#a10 {
+    left: 59%;
+    top: 18%;
+}
+
+#a11 {
+    left: 57.75%;
+    top: 27.5%;
+}
+
+#a12 {
+    left: 57.75%;
+    top: 33.5%;
+}
+
+#a13 {
+    left: 57.75%;
+    top: 39%;
+}
+
+#a14 {
+    left: 57.75%;
+    top: 45%;
+}
+
+#a15 {
+    left: 72%;
+    top: 33%;
+}
+
+#a16 {
+    left: 69.5%;
+    top: 46.75%;
+}
+
+#a17 {
+    left: 68%;
+    top: 63%;
+}
+
+#a18 {
+    left: 65%;
+    top: 84%;
+}
+
+#a19 {
+    left: 50%;
+    top: 84%;
+}
+
+#a20 {
+    left: 36.5%;
+    top: 84%;
+}
+
+#a21 {
+    left: 25%;
+    top: 79%;
+}
+
+#a22 {
+    left: 41.4%;
+    top: 71.5%;
+}
+
+#a23 {
+    left: 53%;
+    top: 71%;
+}
+
+#a24 {
+    left: 59%;
+    top: 75.5%;
+}
+
+#a25 {
+    left: 56.5%;
+    top: 64%;
+}
+
+#a26 {
+    left: 57.5%;
+    top: 57%;
+}
+
+#a27 {
+    left: 57.5%;
+    top: 51%;
+}
 
 .hidden {
     display: none;
@@ -290,7 +425,8 @@ body {
 #hotspots23:checked~#content23,
 #hotspots24:checked~#content24,
 #hotspots25:checked~#content25,
-#hotspots26:checked~#content26 {
+#hotspots26:checked~#content26,
+#hotspots27:checked~#content27 {
     display: block;
     margin: 2rem;
     width: 90%;
