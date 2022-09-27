@@ -54,8 +54,8 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
           if (isset($_SESSION["id"])) {
             switch ($_SESSION["userrole"]) {
               case 'admin':
-                echo '<li><a href="./index.php?content=Archief">Archief</a></li>
-              <li><a href="./index.php?content=admindashboard">admin</a></li>
+                echo '
+              <li><a href="./index.php?content=admindashboard">admindashboard</a></li>
               
       ';
 
