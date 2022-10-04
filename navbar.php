@@ -35,6 +35,8 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
           <li><a href="./index.php?content=navigatie">Navigatie</a></li>
           <li><a href="./index.php?content=survey">Survey</a></li>
           <li><a href="./index.php?content=opleiding">opleiding</a></li>
+          <li><a href="./index.php?content=plattegrond">plattegrond</a></li>
+
 
 
 

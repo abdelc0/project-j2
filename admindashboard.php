@@ -22,7 +22,7 @@
             </div>
 
 
-            <a href="./index.php?content=news">
+            <a href="./index.php?content=survey-read">
                 <div class="card 2">
                     <div class="card_image">
                         <img src="./img/logonews.png" />
