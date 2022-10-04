@@ -9,7 +9,7 @@
 	</head>
 	<body>
 
-		<form class="survey-form" method="post" action="process-survey.php">		
+		<form class="survey-form" method="post" action="process-survey">		
 		<h1><i class="far fa-list-alt"></i>Survey Form</h1>
 
 <div class="step-content current">
