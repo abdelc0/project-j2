@@ -478,8 +478,60 @@ h1 {
     touch-action: manipulation;
     align-items: center;
     margin-left: 12.5px;
+}
 
+.btn2 {
+    background-color: #5b93c0;
+    border-radius: 8px;
+    border-width: 0;
+    color: #0B132B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    margin-top: 1em;
+    width: 10vw;
+    height: 10vh;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    align-items: center;
+    margin-left: 12.5px;
+}
 
+.btn3 {
+    background-color: #5b93c0;
+    border-radius: 8px;
+    border-width: 0;
+    color: #0B132B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    margin-top: 1em;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    align-items: center;
+    margin-left: 12.5px;
 }
 
 .btn:hover,
