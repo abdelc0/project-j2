@@ -98,3 +98,15 @@
   width: 100%;
   height: 100%;
 }
+
+@media only screen and (max-width: 480px){
+   
+  .contact-in:nth-child(1){
+     flex: 100%;
+     background:rgb(20, 72, 72);
+  }
+ 
+  .contact-in:nth-child(2){
+     flex: 100%;
+  }
+}
