@@ -93,3 +93,8 @@
   line-height: 30px;
   color: #000;
 }
+
+.contact-in iframe{
+  width: 100%;
+  height: 100%;
+}
