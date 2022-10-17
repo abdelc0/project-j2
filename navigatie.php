@@ -48,4 +48,11 @@
             <h2><i class="fa fa-marker" aria-hidden="true"></i> Address</h2>
             <p>Daltonlaan 300
                 Utrecht</p>
+
+                <ul>
+                <li><a href="https://www.facebook.com/mboutrechtalgemeen/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/MBOUtrecht"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.mboutrecht.nl/academies/ict-academie/"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/mboutrecht/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
 </div>
