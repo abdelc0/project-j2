@@ -27,7 +27,7 @@
 
  .contact-in:nth-child(1){
   flex: 30%;
-  background-color: rgb(20, 72, 72);
+  background-color: #3A506B;
   color: #fff;
 }
 
@@ -104,7 +104,7 @@
    
   .contact-in:nth-child(1){
      flex: 100%;
-     background:rgb(20, 72, 72);
+     background: #3A506B;
   }
  
   .contact-in:nth-child(2){
