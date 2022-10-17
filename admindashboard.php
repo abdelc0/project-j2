@@ -25,7 +25,7 @@
             <a href="./index.php?content=survey-read">
                 <div class="card 2">
                     <div class="card_image">
-                        <img src="./img/logonews.png" />
+                        <img src="https://elearningindustry.com/wp-content/uploads/2017/12/5-customer-service-questions-to-ask-and-make-a-successful-vendor-selection.jpeg" />
                     </div>
                     <div class="card_title title-white">
                     </div>
