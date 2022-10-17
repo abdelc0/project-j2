@@ -1,5 +1,31 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   
+ body{
+    height: 100vh;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+ }
 
+ .contact-wrap{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+ }
 
+ .contact-in
+ {
+    padding: 40px 30px;
+ }
+
+ .contact-in:nth-child(1){
+  flex: 30%;
+  background-color: aqua;
+  color: #fff;
+}

@@ -41,7 +41,7 @@
 
 </div> -->
 
-
+<div class="contact-wrap">
 <div class="contact-in">
             <h1>Contact Us</h1>
             <h2><i class="fa fa-phone" aria-hidden="true"></i> Telefoon</h2>
@@ -58,4 +58,8 @@
                 <li><a href="https://www.mboutrecht.nl/academies/ict-academie/"><i class="fa fa-google" aria-hidden="true"></i></a></li>
                 <li><a href="https://www.instagram.com/mboutrecht/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
             </ul>
-</div>
+     </div>
+
+     
+     </div>
+     
