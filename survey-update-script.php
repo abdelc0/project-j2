@@ -22,8 +22,6 @@ $sql = "UPDATE `enquete-veranderen`
                      vraag5 = '$vraag5'
                  WHERE id = '$id'";
 
-mysqli_query($conn,$sql); 
-
 
     header("refresh:0.1; url=./index.php?content=message&alert=message-succes");  
 
