@@ -1,14 +1,8 @@
-
 <?php
-define ("SERVERNAME","localhost");
-define("USERNAME","root");
-define("PASSWORD","");
-define("DBName","opendag");
-// define ("SERVERNAME","localhost");
-// define("USERNAME","imran_m1");
-// define("PASSWORD","vxBMzpzH80TgN9rQ");
-// define("DBName","anime_da");
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "opendag";
 
-$conn = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBName);
-
-?>  
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
