@@ -15,23 +15,8 @@ echo "<hr>";
 
 
 
-// $sql ="INSERT INTO `users` (`id`, `firstname`, `infix`, `lastname`, `age`,`woonplaats`,`gender`)
-//          VALUES (NULL, '$firstname', '$infix', '$lastname', '$age','$woonplaats','$gender');";
- $sql= "INSERT INTO `enquete-veranderen` (`id`,
-                                    `vraag1`, 
-                                    `vraag2`,
-                                    `vraag3`,   
-                                    `vraag4`,
-                                    `vraag5`)
-                                        VALUES 
-                                        ( NULL, 
-                                        '$vraag1', 
-                                        '$vraag2',
-                                        '$vraag3',
-                                        '$vraag4',
-                                        '$vraag5');";
-$result = mysqli_query($conn,$sql);
-
+ // PDO query prepared
+ 
 if($result){
     header("refresh:0.1; url=./index.php?content=message&alert=message-succes");  
 }
