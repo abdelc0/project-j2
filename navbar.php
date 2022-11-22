@@ -7,10 +7,10 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
@@ -18,24 +18,24 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
 
 
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/home.css">
-  <header>
-    <nav class="navbar">
-      <div class="brand-title">MBO Utrecht</div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="./index.php?content=home">Home</a></li>
-          <li><a href="./index.php?content=aboutmbo">about mbo</a></li>
-          <li><a href="./index.php?content=navigatie">Navigatie</a></li>
-          <li><a href="./index.php?content=survey">Survey</a></li>
-          <li><a href="./index.php?content=opleiding">opleiding</a></li>
-          <li><a href="./index.php?content=plattegrond">plattegrond</a></li>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <header>
+        <nav class="navbar">
+            <div class="brand-title">MBO Utrecht</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="./index.php?content=home">Home</a></li>
+                    <li><a href="./index.php?content=aboutmbo">About Us</a></li>
+                    <li><a href="./index.php?content=navigatie">Navigation</a></li>
+                    <li><a href="./index.php?content=survey">Survey</a></li>
+                    <li><a href="./index.php?content=opleiding">Education</a></li>
+                    <li><a href="./index.php?content=plattegrond">Overview</a></li>
 
 
 
@@ -44,7 +44,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
 
 
-          <script src="js/script.js" type="text/javascript"></script>
+                    <script src="js/script.js" type="text/javascript"></script>
 
 
 
@@ -53,7 +53,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
 
 
-          <?php
+                    <?php
           // var_dump($_SESSION);exit();
           if (isset($_SESSION["id"])) {
             switch ($_SESSION["userrole"]) {
@@ -105,11 +105,11 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
           ?>
 
-        </ul>
-      </div>
-    </nav>
+                </ul>
+            </div>
+        </nav>
 
-  </header>
+    </header>
 
 
 </body>
