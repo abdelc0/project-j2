@@ -94,12 +94,12 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
             echo ' 
             
-            <li><a href="./index.php?content=uitloggen">uitloggen</a></li>';
+            <li><a href="./index.php?content=uitloggen">Logout</a></li>';
           } else {
             //dit is wat iedreen ziet dus
             echo '
-          <li><a href="./index.php?content=register">register</a></li>
-          <li><a href="./index.php?content=inloggen">inloggen</a></li>
+          <li><a href="./index.php?content=register">Register</a></li>
+          <li><a href="./index.php?content=inloggen">Login</a></li>
            ';
           }
 
