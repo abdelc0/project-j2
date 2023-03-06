@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 ?>
 
@@ -7,10 +7,10 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
@@ -36,7 +36,6 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
           <li><a href="./index.php?content=survey">Survey</a></li>
           <li><a href="./index.php?content=opleiding">opleiding</a></li>
           <li><a href="./index.php?content=plattegrond">plattegrond</a></li>
-          <li><a href="./index.php?content=project">project</a></li>
 
 
 
@@ -45,7 +44,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
 
 
-          <script src="js/script.js" type="text/javascript"></script>
+                    <script src="js/script.js" type="text/javascript"></script>
 
 
 
@@ -54,7 +53,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
 
 
-          <?php
+                    <?php
           // var_dump($_SESSION);exit();
           if (isset($_SESSION["id"])) {
             switch ($_SESSION["userrole"]) {
@@ -95,24 +94,24 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
             echo ' 
             
-            <li><a href="./index.php?content=uitloggen">uitloggen</a></li>';
+            <li><a href="./index.php?content=uitloggen">Logout</a></li>';
           } else {
             //dit is wat iedreen ziet dus
             echo '
-          <li><a href="./index.php?content=register">register</a></li>
-          <li><a href="./index.php?content=inloggen">inloggen</a></li>
+          <li><a href="./index.php?content=register">Register</a></li>
+          <li><a href="./index.php?content=inloggen">Login</a></li>
            ';
           }
 
           ?>
 
-        </ul>
-      </div>
-    </nav>
+                </ul>
+            </div>
+        </nav>
 
-  </header>
+    </header>
 
 
 </body>
 
-</html>
+</html> -->
